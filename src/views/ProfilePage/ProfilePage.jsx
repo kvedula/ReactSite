@@ -45,12 +45,6 @@ import work3 from "assets/img/examples/work-3.jpg";
 import work4 from "assets/img/examples/work-4.jpg";
 import work5 from "assets/img/examples/work-5.jpg";
 
-// import work1 from "assets/img/examples/olu-eletu.jpg";
-// import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-// import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-// import work4 from "assets/img/examples/mariya-georgieva.jpg";
-// import work5 from "assets/img/examples/clem-onojegaw.jpg";
-
 import photo1 from "assets/img/examples/photo-1.jpg";
 import photo2 from "assets/img/examples/photo-2.jpg";
 import photo3 from "assets/img/examples/photo-3.jpg";
@@ -98,20 +92,12 @@ class ProfilePage extends React.Component {
                       <h3 className={classes.title}>Kamesh Vedula</h3>
                       <h5>Student. Developer. Photographer.</h5>
                       <h6>@kvedula</h6>
-                      {/* <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-twitter"} />
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-instagram"} />
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-facebook"} />
-                      </Button> */}
                       <SmallChips />
                     </div>
                   </div>
                 </GridItem>
               </GridContainer>
+
               <div className={classes.description}>
                 <p>
                 Hi, I'm Kamesh and I am currently going into my fourth and final undergraduate year at 
@@ -156,59 +142,23 @@ class ProfilePage extends React.Component {
                                 src={work3}
                                 className={navImageClasses}
                               />
+                            </GridItem>
+                            <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
                                 src={work4}
                                 className={navImageClasses}
                               />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
                               <img
                                 alt="..."
                                 src={work5}
                                 className={navImageClasses}
                               />
                             </GridItem>
+
                           </GridContainer>
                         )
                       },
-                      // {
-                      //   tabButton: "Projects",
-                      //   tabIcon: Project,
-                      //   tabContent: (
-                      //     <GridContainer justify="center">
-                      //       <GridItem xs={12} sm={12} md={4}>
-                      //         <img
-                      //           alt="..."
-                      //           src={work1}
-                      //           className={navImageClasses}
-                      //         />
-                      //         <img
-                      //           alt="..."
-                      //           src={work2}
-                      //           className={navImageClasses}
-                      //         />
-                      //         <img
-                      //           alt="..."
-                      //           src={work3}
-                      //           className={navImageClasses}
-                      //         />
-                      //       </GridItem>
-                      //       <GridItem xs={12} sm={12} md={4}>
-                      //         <img
-                      //           alt="..."
-                      //           src={work4}
-                      //           className={navImageClasses}
-                      //         />
-                      //         <img
-                      //           alt="..."
-                      //           src={work5}
-                      //           className={navImageClasses}
-                      //         />
-                      //       </GridItem>
-                      //     </GridContainer>
-                      //   )
-                      // },
                       {
                         tabButton: "Photography",
                         tabIcon: Camera,
